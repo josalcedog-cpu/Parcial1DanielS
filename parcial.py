@@ -30,10 +30,10 @@ def primero():
 · 60 años o más → “Adulto mayor”
 '''
 def segundo():
-    age = int(input("digite su edad para clasificarlo:\t"))
+    age = int(input("\nDigite su edad para clasificarlo:\t"))
 
     if age < 13: 
-        print("niño")
+        print("Niño")
     elif(age < 17 and age >= 13): 
         print("Adolescente.")
     elif(age < 59 and age >= 18): 
@@ -45,22 +45,27 @@ def segundo():
 #Tercer punto: 
 # Solicite al usuario que escriba una palabra (sin espacios) y cuente cuántas vocales tiene. El programa debe ser sensible a mayúsculas y minúsculas (es decir, contar tanto a como A).
 def tercero():
-    letra = input("Escriba una palabra sin espacios:\t")
-    if " " == letra: 
-            print("Su texto contiene espacios.")
-    else:
-        for i in letra: 
-            print(i)
-            print(f"La vocal a esta {i.count("a")} veces.")
-            print(f"La vocal e esta {i.count("e")} veces.")
-            print(f"La vocal i esta {i.count("i")} veces.")
-            print(f"La vocal o esta {i.count("o")} veces.")
-            print(f"La vocal u esta {i.count("u")} veces.")
-            print(f"La vocal A esta {i.count("A")} veces.")
-            print(f"La vocal E esta {i.count("E")} veces.")
-            print(f"La vocal I esta {i.count("I")} veces.")
-            print(f"La vocal O esta {i.count("O")} veces.")
-            print(f"La vocal U esta {i.count("U")} veces.")
+   
+    letra = input("\nEscriba una palabra sin espacios:\t")
+    if " " in letra: 
+        print (f"Su texto tiene espacios, tiene {letra.count(" ")} espacios")
+    else: 
+        print(f"La vocal 'a' aparece {letra.count('a')} veces.")
+        print(f"La vocal 'a' aparece {letra.count('a')} veces.")
+        print(f"La vocal 'e' aparece {letra.count('e')} veces.")
+        print(f"La vocal 'i' aparece {letra.count('i')} veces.")
+        print(f"La vocal 'o' aparece {letra.count('o')} veces.")
+        print(f"La vocal 'u' aparece {letra.count('u')} veces.")
+
+
+        print(f"La vocal 'A' aparece {letra.count('A')} veces.")
+        print(f"La vocal 'E' aparece {letra.count('E')} veces.")
+        print(f"La vocal 'I' aparece {letra.count('I')} veces.")
+        print(f"La vocal 'O' aparece {letra.count('O')} veces.")
+        print(f"La vocal 'U' aparece {letra.count('U')} veces.")
+        
+
+            
 
 def main():
     primero()

@@ -5,21 +5,49 @@
 
 El programa le solicita al usuario un número.
 
-    <img width="215" height="38" alt="image" src="https://github.com/user-attachments/assets/53eb9094-8189-41e4-b085-a6275e26c3f9" />
+    ![alt text](image.png)
 
 
 
 Posteriormente el programa le dirá al usuario si su numero es par positivo, y le solicitará otro número.
 
 
-    <img width="235" height="70" alt="image" src="https://github.com/user-attachments/assets/b5bb2fa8-a411-4e80-b0a5-843d7343ec3b" />
+    ![alt text](image-1.png)
 
 Este proceso se repetira otras tres veces más con los números que quiera el usuario.
 Posteriormente el programa al finalizar los cinco procesos de solicitar un número le entregará una lista de los números que el usuario insertó y la suma de todos los números pares positivos.
 
-    <img width="371" height="189" alt="image" src="https://github.com/user-attachments/assets/e30b0c3c-0ce8-4573-9ab8-2cf3e11c102d" />
-  
+    ![alt text](image-2.png)
 
+
+
+2. Para el segundo punto del parcial el programa inicia solicitandole al usuario su edad: 
+
+        ![alt text](image-3.png)
+
+
+   Posteriormente con base a la edad que introduzca el usuario el programa le enviará un mensaje clasificandolo por su edad: 
+
+
+        ![alt text](image-4.png)
+
+
+
+3. Para el tercero el programa inicia solicitandole al usuario una palabra sin espacios: 
+
+        ![alt text](image-5.png)
+
+   En el caso de que el usuario introduzca una oración o una palabra con espacios el programa automaticamnte le informa y finaliza el mismo: 
+
+        ![alt text](image-6.png)
+
+
+    En caso de que no contenga espacios el programa se ejecutara normalmente y le dirá al usuario la cantidad de letras vocales mayusculas y minusculas al usuario y posteriormente finalizará el programa. 
+
+
+        ![alt text](image-7.png)
+
+    
 
 
 
