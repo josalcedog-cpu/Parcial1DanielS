@@ -13,7 +13,7 @@ def primero():
         numero.append(num)
         if num > 0 and even.is_integer(): 
             sum += num
-            print(f"Los numero pares son estos {num} ")
+            print(f"Su numero {num} es par psoitivo.")
     print(f"La suma de números pares es esta:\t{sum} ")
     print(f" La lista de numeros es esta:\t{numero}")
 
@@ -64,8 +64,8 @@ def tercero():
 
 def main():
     primero()
-    #segundo()
-    #tercero()
+    segundo()
+    tercero()
 
 if __name__ == "__main__":
     main()
