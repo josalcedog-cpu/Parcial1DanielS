@@ -13,7 +13,7 @@ def primero():
         numero.append(num)
         if num > 0 and even.is_integer(): 
             sum += num
-            print(f"Su numero {num} es par psoitivo.")
+            print(f"Su numero {num} es par positivo.")
     print(f"La suma de números pares es esta:\t{sum} ")
     print(f" La lista de numeros es esta:\t{numero}")
 
