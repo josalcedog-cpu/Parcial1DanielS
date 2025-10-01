@@ -8,7 +8,7 @@ def primero():
     numero = []
     sum = 0
     for i in range(5): 
-        num = int(input("Escriba un numero par positivo:\t"))
+        num = int(input("Escriba un numero:\t"))
         even = num/2
         numero.append(num)
         if num > 0 and even.is_integer(): 
@@ -64,8 +64,8 @@ def tercero():
 
 def main():
     primero()
-    segundo()
-    tercero()
+    #segundo()
+    #tercero()
 
 if __name__ == "__main__":
     main()
