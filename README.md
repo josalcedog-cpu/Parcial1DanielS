@@ -47,6 +47,12 @@ Posteriormente el programa al finalizar los cinco procesos de solicitar un núme
 
         ![alt text](image-7.png)
 
+
+
+
+
+![alt text](image-8.png)
+
     
 
 
